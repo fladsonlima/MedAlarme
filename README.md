@@ -1,5 +1,5 @@
 MedAlarme – Gerenciador de Alarmes para Medicamentos
-Descrição do Projeto
+
 O MedAlarme é um sistema embarcado desenvolvido para ajudar na administração correta dos medicamentos. Criado e testado 100% no simulador Wokwi, o projeto utiliza o Raspberry Pi Pico W e é programado em C (pico-sdk). Ele integra um display OLED para exibir informações, um RTC para manter o tempo preciso, além de LEDs, um buzzer, um keypad e um botão para interação com o usuário.
 
 Principais Arquivos do Projeto
@@ -53,7 +53,8 @@ Localmente (em hardware real):
 Configure o ambiente de desenvolvimento com o pico-sdk e o CMake.
 Compile o projeto no VS Code.
 Carregue o firmware gerado (arquivo UF2) no Raspberry Pi Pico W via USB.
-Referências
+
+Referências:
 Projeto Wokwi – Display OLED com Pico W em C: https://wokwi.com/projects/421456571126424577
 Raspberry Pi Pico Examples – SSD1306 I2C: https://github.com/raspberrypi/pico-examples/tree/master/i2c/ssd1306_i2c
 Projeto Wokwi Alternativo – Correção de Exibição no OLED: https://wokwi.com/projects/393154286020492289
@@ -62,5 +63,7 @@ Documentação Wokwi – Membrane Keypad: https://docs.wokwi.com/pt-BR/parts/wok
 Documentação Wokwi – Board SSD1306: https://docs.wokwi.com/pt-BR/parts/board-ssd1306
 Diagramas do Projeto – Miro: https://miro.com/app/board/uXjVIaVYfIs=/
 Proteus 8 Free Trial – Diagrama Elétrico: https://www.labcenter.com/free-trial/
+
 Considerações Finais
+
 O MedAlarme demonstra como é possível desenvolver um sistema embarcado eficiente e de baixo custo para a administração de medicamentos, utilizando o Raspberry Pi Pico W e diversas interfaces de hardware. Com uma abordagem modular e uma interface intuitiva, o projeto garante a correta configuração e disparo dos alarmes, contribuindo para a adesão ao tratamento medicamentoso.
